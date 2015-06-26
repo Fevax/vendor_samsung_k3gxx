@@ -121,9 +121,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/vendor/lib/liblvverx_3.21.13.so:system/vendor/lib/liblvverx_3.21.13.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/liblvvetx_3.21.13.so:system/vendor/lib/liblvvetx_3.21.13.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
-  vendor/samsung/k3gxx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
-  vendor/samsung/k3gxx/proprietary/vendor/lib/libOpenCL.so.1:system/vendor/lib/libOpenCL.so.1 \
-  vendor/samsung/k3gxx/proprietary/vendor/lib/libOpenCL.so.1.1:system/vendor/lib/libOpenCL.so.1.1 \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -156,4 +153,29 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
   vendor/samsung/k3gxx/proprietary/lib/lib_SamsungVAD_v01007.so:system/lib/lib_SamsungVAD_v01007.so \
   vendor/samsung/k3gxx/proprietary/bin/dex2oat:system/bin/dex2oat \
-  vendor/samsung/k3gxx/proprietary/bin/rild:system/bin/rild
+  vendor/samsung/k3gxx/proprietary/bin/rild:system/bin/rild \
+  vendor/samsung/k3gxx/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
+  vendor/samsung/k3gxx/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
+  vendor/samsung/k3gxx/proprietary/media/battery_error.spi:system/media/battery_error.spi \
+  vendor/samsung/k3gxx/proprietary/media/battery_low.spi:system/media/battery_low.spi \
+  vendor/samsung/k3gxx/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
+  vendor/samsung/k3gxx/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
+  vendor/samsung/k3gxx/proprietary/media/bootsamsung.qmg:system/media/bootsamsung.qmg \
+  vendor/samsung/k3gxx/proprietary/media/bootsamsungloop.qmg:system/media/bootsamsungloop.qmg \
+  vendor/samsung/k3gxx/proprietary/media/bootsamsungmini.qmg:system/media/bootsamsungmini.qmg \
+  vendor/samsung/k3gxx/proprietary/media/bootsamsungminiloop.qmg:system/media/bootsamsungminiloop.qmg \
+  vendor/samsung/k3gxx/proprietary/media/dock_error.spi:system/media/dock_error.spi \
+  vendor/samsung/k3gxx/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
+  vendor/samsung/k3gxx/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
+  vendor/samsung/k3gxx/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
+  vendor/samsung/k3gxx/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
+  vendor/samsung/k3gxx/proprietary/media/percentage.spi:system/media/percentage.spi \
+  vendor/samsung/k3gxx/proprietary/media/shutdown.qmg:system/media/shutdown.qmg \
+  vendor/samsung/k3gxx/proprietary/media/shutdown.qmg.cover:system/media/shutdown.qmg.cover \
+  vendor/samsung/k3gxx/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
+  vendor/samsung/k3gxx/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
+  vendor/samsung/k3gxx/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
+  vendor/samsung/k3gxx/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+  vendor/samsung/k3gxx/proprietary/lib/libEGL.so:system/lib/libEGL.so \
+  vendor/samsung/k3gxx/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
+  vendor/samsung/k3gxx/proprietary/lib/libart.so:system/lib/libart.so
