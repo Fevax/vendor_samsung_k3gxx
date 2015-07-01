@@ -152,7 +152,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/libnbaio.so:system/lib/libnbaio.so \
   vendor/samsung/k3gxx/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
   vendor/samsung/k3gxx/proprietary/lib/lib_SamsungVAD_v01007.so:system/lib/lib_SamsungVAD_v01007.so \
-  vendor/samsung/k3gxx/proprietary/bin/dex2oat:system/bin/dex2oat \
   vendor/samsung/k3gxx/proprietary/bin/rild:system/bin/rild \
   vendor/samsung/k3gxx/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
   vendor/samsung/k3gxx/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
@@ -178,4 +177,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
   vendor/samsung/k3gxx/proprietary/lib/libEGL.so:system/lib/libEGL.so \
   vendor/samsung/k3gxx/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
-  vendor/samsung/k3gxx/proprietary/lib/libart.so:system/lib/libart.so
+  vendor/samsung/k3gxx/proprietary/lib/libart.so:system/lib/libart.so \
+  vendor/samsung/k3gxx/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+  vendor/samsung/k3gxx/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so
