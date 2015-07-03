@@ -148,35 +148,14 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/libcsc.so:system/lib/libcsc.so \
   vendor/samsung/k3gxx/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
   vendor/samsung/k3gxx/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-  vendor/samsung/k3gxx/proprietary/lib/libmedia.so:system/lib/libmedia.so \
   vendor/samsung/k3gxx/proprietary/lib/libnbaio.so:system/lib/libnbaio.so \
   vendor/samsung/k3gxx/proprietary/lib/libsamsungvad.so:system/lib/libsamsungvad.so \
   vendor/samsung/k3gxx/proprietary/lib/lib_SamsungVAD_v01007.so:system/lib/lib_SamsungVAD_v01007.so \
   vendor/samsung/k3gxx/proprietary/bin/rild:system/bin/rild \
-  vendor/samsung/k3gxx/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
-  vendor/samsung/k3gxx/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
-  vendor/samsung/k3gxx/proprietary/media/battery_error.spi:system/media/battery_error.spi \
-  vendor/samsung/k3gxx/proprietary/media/battery_low.spi:system/media/battery_low.spi \
-  vendor/samsung/k3gxx/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
-  vendor/samsung/k3gxx/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
-  vendor/samsung/k3gxx/proprietary/media/bootsamsung.qmg:system/media/bootsamsung.qmg \
-  vendor/samsung/k3gxx/proprietary/media/bootsamsungloop.qmg:system/media/bootsamsungloop.qmg \
-  vendor/samsung/k3gxx/proprietary/media/bootsamsungmini.qmg:system/media/bootsamsungmini.qmg \
-  vendor/samsung/k3gxx/proprietary/media/bootsamsungminiloop.qmg:system/media/bootsamsungminiloop.qmg \
-  vendor/samsung/k3gxx/proprietary/media/dock_error.spi:system/media/dock_error.spi \
-  vendor/samsung/k3gxx/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
-  vendor/samsung/k3gxx/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
-  vendor/samsung/k3gxx/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
-  vendor/samsung/k3gxx/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
-  vendor/samsung/k3gxx/proprietary/media/percentage.spi:system/media/percentage.spi \
-  vendor/samsung/k3gxx/proprietary/media/shutdown.qmg:system/media/shutdown.qmg \
-  vendor/samsung/k3gxx/proprietary/media/shutdown.qmg.cover:system/media/shutdown.qmg.cover \
-  vendor/samsung/k3gxx/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
-  vendor/samsung/k3gxx/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
-  vendor/samsung/k3gxx/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
-  vendor/samsung/k3gxx/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-  vendor/samsung/k3gxx/proprietary/lib/libEGL.so:system/lib/libEGL.so \
-  vendor/samsung/k3gxx/proprietary/lib/libmedia_jni.so:system/lib/libmedia_jni.so \
-  vendor/samsung/k3gxx/proprietary/lib/libart.so:system/lib/libart.so \
   vendor/samsung/k3gxx/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-  vendor/samsung/k3gxx/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so
+  vendor/samsung/k3gxx/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
+  vendor/samsung/k3gxx/proprietary/lib/libhr.so:system/lib/libhr.so \
+  vendor/samsung/k3gxx/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+  vendor/samsung/k3gxx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+  vendor/samsung/k3gxx/proprietary/lib/libmediaConverter.so:system/lib/libmediaConverter.so \
+  vendor/samsung/k3gxx/proprietary/lib/libmediaConverter_jni.so:system/lib/libmediaConverter_jni.so
