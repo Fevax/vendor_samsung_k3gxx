@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/companion_fw_evt0.bin:system/vendor/firmware/companion_fw_evt0.bin \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/fimc_is_fw2.bin:system/vendor/firmware/fimc_is_fw2.bin \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/fimc_is_fw2_2p2.bin:system/vendor/firmware/fimc_is_fw2_2p2.bin \
-  vendor/samsung/k3gxx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/setfile_2p2.bin:system/vendor/firmware/setfile_2p2.bin \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
@@ -48,6 +47,55 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/etc/firmware/florida-dsp4-rx-anc-nb.wmfw:system/etc/firmware/florida-dsp4-rx-anc-nb.wmfw \
   vendor/samsung/k3gxx/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.bin:system/etc/firmware/florida-dsp4-rx-anc-wb.bin \
   vendor/samsung/k3gxx/proprietary/etc/firmware/florida-dsp4-rx-anc-wb.wmfw:system/etc/firmware/florida-dsp4-rx-anc-wb.wmfw \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:system//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/BargeIn/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt:system//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_ANALOG_DOCK.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/BargeInDriving/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/LVVEFS_Rx_Configuration.txt:system//vendor/etc/nxp/LVVEFS_Rx_Configuration.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/LVVEFS_Tx_Configuration.txt:system//vendor/etc/nxp/LVVEFS_Tx_Configuration.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/mVoIP/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_NARROWBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/mVoIPFMC/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/mVoIPFMC/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/mVoIPSec/Rx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt:system//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_BLUETOOTH_SCO_HEADSET.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt:system//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_SPEAKER.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt:system//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADPHONE.txt \
+  vendor/samsung/k3gxx/proprietary//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system//vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
   vendor/samsung/k3gxx/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
   vendor/samsung/k3gxx/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
   vendor/samsung/k3gxx/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
@@ -59,63 +107,35 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
   vendor/samsung/k3gxx/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
   vendor/samsung/k3gxx/proprietary/etc/wifi/nvram_net.txt_wisol:system/etc/wifi/nvram_net.txt_wisol \
-  vendor/samsung/k3gxx/proprietary/lib/libbt-aptx-4.0.3.so:system/lib/libbt-aptx-4.0.3.so \
-  vendor/samsung/k3gxx/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
-  vendor/samsung/k3gxx/proprietary/lib/libbt-iopdb.so:system/lib/libbt-iopdb.so \
-  vendor/samsung/k3gxx/proprietary/lib/libbt-iopdb_mod.so:system/lib/libbt-iopdb_mod.so \
-  vendor/samsung/k3gxx/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
-  vendor/samsung/k3gxx/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-  vendor/samsung/k3gxx/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-  vendor/samsung/k3gxx/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-  vendor/samsung/k3gxx/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-  vendor/samsung/k3gxx/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-  vendor/samsung/k3gxx/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-  vendor/samsung/k3gxx/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
   vendor/samsung/k3gxx/proprietary/lib/libmysound.so:system/lib/libmysound.so \
   vendor/samsung/k3gxx/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
   vendor/samsung/k3gxx/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/liblvverx_3.21.13.so:system/vendor/lib/liblvverx_3.21.13.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/liblvvetx_3.21.13.so:system/vendor/lib/liblvvetx_3.21.13.so \
-  vendor/samsung/k3gxx/proprietary/lib/hw/camera.universal5422.so:system/lib/hw/camera.universal5422.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_magicshot_bestface_T.so:system/lib/libarcsoft_magicshot_bestface_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_magicshot_bestphoto_T.so:system/lib/libarcsoft_magicshot_bestphoto_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_magicshot_common_T.so:system/lib/libarcsoft_magicshot_common_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_magicshot_drama_T.so:system/lib/libarcsoft_magicshot_drama_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_magicshot_eraser_T.so:system/lib/libarcsoft_magicshot_eraser_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_magicshot_picmotion_T.so:system/lib/libarcsoft_magicshot_picmotion_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_night_shot_ex.so:system/lib/libarcsoft_night_shot_ex.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_picmotion_T.so:system/lib/libarcsoft_picmotion_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_preprocessor_T.so:system/lib/libarcsoft_preprocessor_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_readengine_T.so:system/lib/libarcsoft_readengine_T.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_selfie_camera_lite.so:system/lib/libarcsoft_selfie_camera_lite.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-  vendor/samsung/k3gxx/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \
+  vendor/samsung/k3gxx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
   vendor/samsung/k3gxx/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+  vendor/samsung/k3gxx/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
   vendor/samsung/k3gxx/proprietary/lib/libvdis.so:system/lib/libvdis.so \
   vendor/samsung/k3gxx/proprietary/bin/drsd:system/bin/drsd \
   vendor/samsung/k3gxx/proprietary/bin/exyrngd:system/bin/exyrngd \
   vendor/samsung/k3gxx/proprietary/bin/gps.cer:system/bin/gps.cer \
   vendor/samsung/k3gxx/proprietary/bin/gpsd:system/bin/gpsd \
   vendor/samsung/k3gxx/proprietary/bin/npsmobex:system/bin/npsmobex \
-  vendor/samsung/k3gxx/proprietary/bin/rild:system/bin/rild \
   vendor/samsung/k3gxx/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
   vendor/samsung/k3gxx/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+  vendor/samsung/k3gxx/proprietary/bin/gpsd:system/bin/gpsd \
+  vendor/samsung/k3gxx/proprietary/bin/gps.cer:system/bin/gps.cer \
   vendor/samsung/k3gxx/proprietary/lib/hw/gps.universal5422.so:system/lib/hw/gps.universal5422.so \
+  vendor/samsung/k3gxx/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
   vendor/samsung/k3gxx/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+  vendor/samsung/k3gxx/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
   vendor/samsung/k3gxx/proprietary/lib/hw/sensors.universal5422.so:system/lib/hw/sensors.universal5422.so \
+  vendor/samsung/k3gxx/proprietary/lib/hw/sensorhubs.universal5422.so:system/lib/hw/sensorhubs.universal5422.so \
   vendor/samsung/k3gxx/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-  vendor/samsung/k3gxx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/samsung/k3gxx/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
-  vendor/samsung/k3gxx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-  vendor/samsung/k3gxx/proprietary/lib/libril.so:system/lib/libril.so \
-  vendor/samsung/k3gxx/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-  vendor/samsung/k3gxx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
   vendor/samsung/k3gxx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
   vendor/samsung/k3gxx/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
   vendor/samsung/k3gxx/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
@@ -144,8 +164,6 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
   vendor/samsung/k3gxx/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
   vendor/samsung/k3gxx/proprietary/bin/scranton_RD:system/bin/scranton_RD \
-  vendor/samsung/k3gxx/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
-  vendor/samsung/k3gxx/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
   vendor/samsung/k3gxx/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
   vendor/samsung/k3gxx/proprietary/lib/libhr.so:system/lib/libhr.so \
   vendor/samsung/k3gxx/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
@@ -153,13 +171,12 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/hw/power.exynos5.so:system/lib/hw/power.exynos5.so \
   vendor/samsung/k3gxx/proprietary/bin/olsrd:system/bin/olsrd \
   vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-  vendor/samsung/k3gxx/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+  vendor/samsung/k3gxx/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+  vendor/samsung/k3gxx/proprietary/lib/libstlport_shared.so:system/lib/libstlport_shared.so \
   vendor/samsung/k3gxx/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-  vendor/samsung/k3gxx/proprietary/bin/samsungpowersoundplay:system/bin/samsungpowersoundplay \
-  vendor/samsung/k3gxx/proprietary/bin/mfgloader:system/bin/mfgloader \
-  vendor/samsung/k3gxx/proprietary/bin/connfwexe:system/bin/connfwexe \
-  vendor/samsung/k3gxx/proprietary/bin/smdexe:system/bin/smdexe \
-  vendor/samsung/k3gxx/proprietary/bin/ss_conn_daemon:system/bin/ss_conn_daemon \
-  vendor/samsung/k3gxx/proprietary/bin/ss_kbservice_daemon:system/bin/ss_kbservice_daemon \
-  vendor/samsung/k3gxx/proprietary/bin/tlc_server:system/bin/tlc_server \
-  vendor/samsung/k3gxx/proprietary/lib/libAMSWiFiLibs-1.0.6.so:system/lib/libAMSWiFiLibs-1.0.6.so
+  vendor/samsung/k3gxx/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+  vendor/samsung/k3gxx/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+  vendor/samsung/k3gxx/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
+  vendor/samsung/k3gxx/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+  vendor/samsung/k3gxx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+  vendor/samsung/k3gxx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin
