@@ -118,11 +118,12 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
   vendor/samsung/k3gxx/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
   vendor/samsung/k3gxx/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-  vendor/samsung/k3gxx/proprietary/bin/drsd:system/bin/drsd \
-  vendor/samsung/k3gxx/proprietary/bin/exyrngd:system/bin/exyrngd \
-  vendor/samsung/k3gxx/proprietary/bin/npsmobex:system/bin/npsmobex \
   vendor/samsung/k3gxx/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
   vendor/samsung/k3gxx/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+  vendor/samsung/k3gxx/proprietary/bin/gpsd:system/bin/gpsd \
+  vendor/samsung/k3gxx/proprietary/bin/gps.cer:system/bin/gps.cer \
+  vendor/samsung/k3gxx/proprietary/lib/hw/gps.universal5422.so:system/lib/hw/gps.universal5422.so \
+  vendor/samsung/k3gxx/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
   vendor/samsung/k3gxx/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
   vendor/samsung/k3gxx/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
@@ -163,16 +164,17 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
   vendor/samsung/k3gxx/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
   vendor/samsung/k3gxx/proprietary/bin/scranton_RD:system/bin/scranton_RD \
-  vendor/samsung/k3gxx/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
-  vendor/samsung/k3gxx/proprietary/lib/libhr.so:system/lib/libhr.so \
-  vendor/samsung/k3gxx/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-  vendor/samsung/k3gxx/proprietary/bin/lpm:system/bin/lpm \
-  vendor/samsung/k3gxx/proprietary/bin/olsrd:system/bin/olsrd \
-  vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-  vendor/samsung/k3gxx/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-  vendor/samsung/k3gxx/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
-  vendor/samsung/k3gxx/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-  vendor/samsung/k3gxx/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
   vendor/samsung/k3gxx/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
   vendor/samsung/k3gxx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
-  vendor/samsung/k3gxx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin
+  vendor/samsung/k3gxx/proprietary/lib/hw/nfc_nci.universal5422.so:system/lib/hw/nfc_nci.universal5422.so \
+  vendor/samsung/k3gxx/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+  vendor/samsung/k3gxx/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+  vendor/samsung/k3gxx/proprietary/lib/libhr.so:system/lib/libhr.so \
+  vendor/samsung/k3gxx/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+  vendor/samsung/k3gxx/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+  vendor/samsung/k3gxx/proprietary/bin/cs:system/bin/cs \
+  vendor/samsung/k3gxx/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+  vendor/samsung/k3gxx/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
+  vendor/samsung/k3gxx/proprietary/bin/mfgloader:system/bin/mfgloader \
+  vendor/samsung/k3gxx/proprietary/bin/olsrd:system/bin/olsrd \
+  vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice
