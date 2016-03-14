@@ -177,4 +177,10 @@ PRODUCT_COPY_FILES += \
   vendor/samsung/k3gxx/proprietary/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
   vendor/samsung/k3gxx/proprietary/bin/mfgloader:system/bin/mfgloader \
   vendor/samsung/k3gxx/proprietary/bin/olsrd:system/bin/olsrd \
-  vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice
+  vendor/samsung/k3gxx/proprietary/bin/wlandutservice:system/bin/wlandutservice \
+  vendor/samsung/k3gxx/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+  vendor/samsung/k3gxx/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
+  vendor/samsung/k3gxx/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so
